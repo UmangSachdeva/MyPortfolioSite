@@ -1,0 +1,51 @@
+.navlinks .nav-link {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.divider {
+  border-right: 2px solid black;
+}
+
+.download-resume {
+  margin-left: 20px;
+  padding: 12px 25px;
+  background-color: rgb(112, 191, 255);
+  transition-property: all;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 0;
+}
+
+.download-resume:hover {
+  background-color: rgb(50, 52, 58);
+  color: rgb(255, 255, 255);
+}
+
+.nav-menu-two {
+  display: flex;
+  margin-bottom: 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-wrapper {
+  width: 100%;
+  max-width: 1140px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-widht: 450px) {
+  .navbar-toggler {
+    position: relative;
+    right: 0;
+  }
+}

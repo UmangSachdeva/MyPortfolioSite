@@ -1,0 +1,161 @@
+.container-2 {
+  margin-top: 137px;
+  margin-left: 66px;
+  background-image: none;
+  background-position: 0px 0px;
+  background-size: auto;
+  margin-right: auto;
+  max-width: 940px;
+}
+
+.sec1 {
+  background-image: url(../Resources/clip-hardworking-man.png);
+  background-position: 100% 0;
+  background-size: 28%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  transform: translate(0px, 0px);
+  transition-property: opacity;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.404, 0.188, 0.696, 0.884);
+  color: rgb(0, 0, 0);
+  line-height: 400px;
+  cursor: pointer;
+  object-fit: contain;
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+.text {
+  margin-right: 590px;
+  text-align: left;
+  width: 100%;
+}
+
+.heading {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  margin-top: 20px;
+}
+
+.heading-2 {
+  margin-left: 0px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 56px;
+  line-height: 77px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.role {
+  font-family: Exo, sans-serif;
+  color: rgb(155, 155, 155);
+  line-height: 20px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.sec2 {
+  margin: 150px 40px 0;
+}
+
+.sec2-heading {
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 41px;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+}
+
+.container-3 {
+  width: 50%;
+  float: left;
+}
+
+.container-3 img {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  width: 100%;
+  margin-top: 41px;
+  float: none;
+}
+
+.container-4 {
+  width: 45%;
+  float: right;
+}
+
+.Project-label {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.Project-label p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.sec3 {
+  margin-top: 50px;
+}
+
+.container-5 {
+  width: 45%;
+  float: left;
+}
+
+.container-5 img {
+  max-width: 100%;
+  margin-top: 100px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.container-6 {
+  margin-top: 100px;
+  width: 50%;
+  float: right;
+}
+
+.container-6 img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.info1 {
+  display: flex;
+}
+
+.submit-btn {
+  background-color: rgb(112, 191, 255);
+}
+
+.mb-3 {
+  text-align: left !important;
+}
+
+@media screen and (max-width: 450px) {
+  .role {
+    line-height: 9px;
+  }
+  .heading {
+    font-size: 23px;
+    line-height: 36px;
+    margin-top: 20px;
+  }
+  .heading-2 {
+    margin-left: 0;
+    font-size: 30px;
+    line-height: 33px;
+  }
+  .container-2 {
+    margin-top: 32px !important;
+    margin-left: 20px !important;
+  }
+}

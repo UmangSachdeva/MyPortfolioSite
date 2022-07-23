@@ -1,0 +1,134 @@
+.heading-AboutMe {
+  margin: 0;
+}
+
+.container-AboutMe {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.Section-one {
+  width: 90%;
+}
+
+.Section-two {
+  display: flex;
+  flex-direction: column;
+}
+
+.Section-two p {
+  font-size: 20px;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+
+.border {
+  margin-top: 100px;
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border-bottom: 0 !important;
+}
+
+.imageCustom {
+  /* width: 30%; */
+  float: left;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+}
+
+.custom-text {
+  text-align: left;
+  margin-top: 5px;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  border-bottom: 2px solid black;
+}
+.progress {
+  width: 820px;
+}
+.custom-list {
+  list-style-type: none;
+  float: left;
+  font-size: 18px;
+}
+
+.custom-list li {
+  margin-top: 15px;
+}
+
+.progress-bar {
+  background-color: rgb(112, 191, 255);
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.links-social {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.bi-twitter {
+  color: rgb(29, 161, 242);
+}
+
+.bi-linkedin {
+  color: #0e76a8;
+}
+
+.bi-github {
+  color: #333333;
+}
+
+.btn-links {
+  width: 50px;
+  border: 0;
+  text-align: center;
+  font-size: 50px;
+  margin-right: 40px;
+}
+
+.link1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-links :hover {
+  color: black;
+  background-color: white !important;
+}
+
+.bi-file-earmark-person {
+  margin-right: 5px;
+  font-style: normal;
+}
+
+.btn-resume {
+  font-size: 20px;
+  margin-top: 18px;
+  background-color: rgb(112, 191, 255);
+  border: 0;
+  color: #1d225f;
+}
+
+.links-resume .btn:hover {
+  background-color: black !important;
+  color: white !important;
+}
+
+/* .link-text {
+  
+  text-decoration: none;
+}
+.btn-resume :hover,
+.link-text:hover {
+  color: whie;
+} */
