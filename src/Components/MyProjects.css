@@ -8,6 +8,10 @@
   max-width: 940px;
 }
 
+.list {
+  text-align: left;
+}
+
 .sec1 {
   background-image: url(../Resources/clip-hardworking-man.png);
   background-position: 100% 0;

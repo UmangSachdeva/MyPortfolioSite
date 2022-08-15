@@ -55,16 +55,36 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <form
+      name="Contact Details - MYPORTFOLIO"
+      netlify
+      netlify-honeypot="bot-field"
+      hidden
+    >
+      <div>
+        <div>
+          <label htmlFor="inputName">Name</label>
+          <input
+            name="Name"
+            type="text"
+            className="form-control"
+            aria-label="First name"
+          />
+        </div>
+        <div>
+          <label htmlFor="Email">Email</label>
+          <input name="inputEmail" type="email" aria-label="Last name" />
+        </div>
+      </div>
+      <div>
+        <div>
+          <textarea aria-label="With textarea"></textarea>
+        </div>
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
   </body>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"

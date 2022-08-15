@@ -93,22 +93,33 @@ function MyProjects() {
             </button>
           </div>
           <h3 className="Project-label">Property Leasing website</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, nisi
-            repellendus? Accusantium recusandae vero, voluptate at dignissimos
-            temporibus nemo! Eligendi distinctio at perspiciatis libero sint
-            ducimus voluptas corporis in enim?
+          <p className="list">
+            It is a two page frontend website build with the help of HTML, CSS
+            and Javascript. Some of the functions of the webiste is:
+            <ul>
+              <li>It is optimized for both laptop and smartphone screens.</li>
+              <li>Can list and unlist the property.</li>
+              <li>Easy navigation bar.</li>
+              <li>Two page website.</li>
+            </ul>
           </p>
         </div>
 
         <div className="container-5">
           <img src={image8} alt="" />
           <h3 className="Project-label">Weather App</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, nisi
-            repellendus? Accusantium recusandae vero, voluptate at dignissimos
-            temporibus nemo! Eligendi distinctio at perspiciatis libero sint
-            ducimus voluptas corporis in enim?
+          <p className="list">
+            The Weather App is build with the help of weatheropen api and it
+            uses ReactJs frameword. Some of the functionality are:
+            <ul className="list">
+              <li>Have a working search functionality.</li>
+              <li>Dynamic Backgroung for each type of weather.</li>
+              <li>Shows temperature both in Kelvin and Celsius.</li>
+              <li>
+                Contains all the information about the weather of the area.
+              </li>
+              <li>Opitmized for both the smartphones and laptop</li>
+            </ul>
           </p>
         </div>
         <div className="container-6">
@@ -126,19 +137,29 @@ function MyProjects() {
           </legend>
         </fieldset>
 
-        <form action="submit">
+        <form
+          name="Contact Details - MYPORTFOLIO"
+          method="post"
+          data-netlify="true"
+          action="/contact"
+        >
+          <input
+            type="hidden"
+            name="form-name"
+            value="Contact Details - MYPORTFOLIO"
+          />
           <div className="row">
             <div className="col mb-3">
               <label htmlFor="inputName">Name</label>
               <input
-                name="inputName"
+                name="Name"
                 type="text"
                 className="form-control"
                 aria-label="First name"
               />
             </div>
             <div className="col mb-3">
-              <label htmlFor="inputEmail">Email</label>
+              <label htmlFor="Email">Email</label>
               <input
                 name="inputEmail"
                 type="email"
@@ -150,19 +171,17 @@ function MyProjects() {
           <div className="row">
             <div className="col">
               <textarea
-                class="form-control container"
+                className="form-control container"
                 aria-label="With textarea"
                 rows={10}
                 placeholder="Any Suggestions...."
               ></textarea>
             </div>
           </div>
-          <div className="d-grid gap-2 d-md-flex justify-content-md-end">
-            <input
-              class="btn btn-primary my-4 submit-btn"
-              type="submit"
-              value="Submit"
-            ></input>
+          <div className="d-flex justify-content-end">
+            <button className="btn btn-primary my-4 submit-btn" type="submit">
+              Submit
+            </button>
           </div>
         </form>
       </section>
