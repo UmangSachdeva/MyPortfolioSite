@@ -159,7 +159,14 @@
     line-height: 33px;
   }
   .container-2 {
-    margin-top: 32px !important;
-    margin-left: 20px !important;
+    margin: 10px !important;
+  }
+
+  .border {
+    margin-top: 10px !important;
+  }
+
+  .sec1 {
+    background-size: contain;
   }
 }

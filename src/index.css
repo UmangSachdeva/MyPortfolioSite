@@ -7,8 +7,91 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@media (min-width: 320px) and (max-width: 430px) {
+  .section-two {
+    width: 100%;
+  }
+
+  .progress {
+    width: 100% !important;
+  }
+
+  .body {
+    flex-direction: column !important;
+  }
+
+  .links {
+    flex-direction: column !important;
+  }
+
+  .custom-list {
+    width: 100%;
+    padding: 0px 20px;
+  }
+
+  .nav-menu-two {
+    width: 100% !important;
+  }
+
+  .download-resume {
+    margin-left: 0;
+  }
+
+  .navbar-wrapper {
+    padding: 5px 10px;
+    justify-content: space-around !important;
+    flex-direction: row !important;
+  }
+
+  .sec2 {
+    margin: 150px 10px 0 !important;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-3 {
+    width: 100% !important;
+  }
+
+  .container-4 {
+    width: 100% !important;
+    margin-top: 15px !important;
+  }
+
+  .container-5 {
+    width: 100% !important;
+  }
+
+  .container-6 {
+    width: 100% !important;
+    margin-top: 15px !important;
+  }
+
+  .footer-wrapper {
+    flex-direction: column;
+  }
+
+  .footer-block {
+    text-align: left;
+  }
+
+  .Section-one {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto !important;
+  }
+
+  .imageCustom {
+    width: 100px;
+  }
+
+  .links-social {
+    width: 100% !important;
+  }
 }

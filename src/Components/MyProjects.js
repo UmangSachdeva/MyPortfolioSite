@@ -2,6 +2,7 @@ import React from "react";
 import "./MyProjects.css";
 import AboutMe from "./AboutMe";
 import ScrollAnimation from "react-animate-on-scroll";
+// import ScrollAnimation from ""
 import image1 from "../Resources/19362653.jpg";
 import image2 from "../Resources/ss1.png";
 import image3 from "../Resources/ss2.png";
@@ -40,7 +41,7 @@ function MyProjects() {
         </fieldset>
 
         <div className="container-3 col-6">
-          <ScrollAnimation animateIn="bounceInLeft" duration={2}>
+          <ScrollAnimation animateIn="fadeIn" duration={2}>
             <img src={image1} alt="" className="image1" />
           </ScrollAnimation>
         </div>
@@ -123,7 +124,7 @@ function MyProjects() {
           </p>
         </div>
         <div className="container-6">
-          <ScrollAnimation animateIn="bounceInRight" duration={2}>
+          <ScrollAnimation animateIn="fadeIn" duration={2}>
             <img src={image7} alt="/" />
           </ScrollAnimation>
         </div>
