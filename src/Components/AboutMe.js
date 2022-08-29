@@ -20,11 +20,13 @@ function AboutMe() {
           </section>
           <section className="Section-two ">
             <p>
-              Hi! I am a frontend developer and a B.tech student from Guru
-              Gobind Singh Inderprastha university. I am a passinate web
-              developer and a 5 Star coder on HackerRank. I know various
-              technologies such as HTML, CSS, JavaScript. Frameworks like
-              bootstrap and ReactJs is also familiar to me.
+              Hi! I am a frontend developer and B.tech student from University
+              of Gurgaon, Guru Gobind Singh Indraprastha. As passionate web
+              developer with 5-star rating on{" "}
+              <a href="https://www.hackerrank.com/umang965454">Hacker Rank</a>.
+              Have comprehensive knowledge in different technologies such as
+              HTML, CSS, JavaScript and framework like ReactJs and Bootstrp.
+              Java to develop amazing websites across all devices.
             </p>
             <div className="skill">
               <h3 className="custom-text">My Skill Set</h3>

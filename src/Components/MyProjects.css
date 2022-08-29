@@ -170,3 +170,8 @@
     background-size: contain;
   }
 }
+
+.project-link {
+  color: rgb(112, 191, 255);
+  text-decoration: none;
+}

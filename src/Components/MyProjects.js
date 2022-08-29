@@ -23,8 +23,8 @@ function MyProjects() {
           </div>
 
           <h2 className="heading-2">
-            Hey, There! I am a frontend Developer and a student of Guru Gobind
-            Singh Inderprastha University.
+            Hello, my name is Umang and I am a frontend developer student at
+            Guru Gobind Singh Inderprastha University.
           </h2>
         </div>
       </section>
@@ -35,7 +35,7 @@ function MyProjects() {
         <fieldset className="border border-4 p-2">
           <legend className="float-none w-auto p-2">
             <h2 className="sec2-heading" style={{ marginBottom: "0px" }}>
-              MY PROJECTS
+              My Projects
             </h2>
           </legend>
         </fieldset>
@@ -93,33 +93,50 @@ function MyProjects() {
               <span className="visually-hidden">Next</span>
             </button>
           </div>
-          <h3 className="Project-label">Property Leasing website</h3>
+          <h3 className="Project-label">
+            <a
+              href="https://propertysite.netlify.app/"
+              className="project-link"
+            >
+              Art-Real - Property for lease
+            </a>
+          </h3>
           <p className="list">
-            It is a two page frontend website build with the help of HTML, CSS
-            and Javascript. Some of the functions of the webiste is:
+            The webiste is a two-page frontend build with the help of HTML, CSS,
+            and Javascript. It serves several functions:
             <ul>
-              <li>It is optimized for both laptop and smartphone screens.</li>
-              <li>Can list and unlist the property.</li>
-              <li>Easy navigation bar.</li>
-              <li>Two page website.</li>
+              <li>
+                It is designed to be viewed on both laptop and smartphone
+                screens.
+              </li>
+              <li>Can list and remove the property.</li>
+              <li>
+                The navigation bar makes it easy to navigate through the site.
+              </li>
             </ul>
           </p>
         </div>
 
         <div className="container-5">
           <img src={image8} alt="" />
-          <h3 className="Project-label">Weather App</h3>
+          <h3 className="Project-label">
+            <a
+              href="https://weatherappbyumang.netlify.app/"
+              className="project-link"
+            >
+              Weather App
+            </a>
+          </h3>
           <p className="list">
-            The Weather App is build with the help of weatheropen api and it
-            uses ReactJs frameword. Some of the functionality are:
+            The Weather App is built with the help of weatheropen api and it
+            uses ReactJs frameword. Some of its functionality include:
             <ul className="list">
-              <li>Have a working search functionality.</li>
-              <li>Dynamic Backgroung for each type of weather.</li>
-              <li>Shows temperature both in Kelvin and Celsius.</li>
+              <li>The user can search for the weather in different cities.</li>
+              <li>The background changes dynamically as the weather shifts.</li>
               <li>
                 Contains all the information about the weather of the area.
               </li>
-              <li>Opitmized for both the smartphones and laptop</li>
+              <li>Opitmized for both the smartphones and laptop sreens.</li>
             </ul>
           </p>
         </div>
